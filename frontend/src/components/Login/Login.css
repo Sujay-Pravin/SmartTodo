@@ -1,0 +1,46 @@
+/* Login.css */
+
+.Login-Page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to right, #1d2b64, #f8cdda);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.key-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.keycap {
+  width: 60px;
+  height: 60px;
+  background: #ffffff;
+  color: #1d2b64;
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.keycap:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.GoogleLogin{
+   margin-top: 20px;
+  transform: scale(1.2);
+  transition: transform 0.2s ease;
+}
+.GoogleLogin:hover {
+  transform: scale(1.3);
+}

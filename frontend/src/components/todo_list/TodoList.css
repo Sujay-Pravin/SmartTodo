@@ -1,0 +1,51 @@
+
+.todo-container {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.todo-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+ 
+}
+
+.todo-item {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.todo-completed {
+  background-color: #c8e6c9;
+}
+
+.todo-pending {
+  background-color: #ffe082;
+}
+
+.todo-meta-list {
+  display: grid;
+  grid-template-columns: max-content auto;
+  column-gap: 12px;
+  row-gap: 6px;
+  font-size: 0.95rem;
+  text-align: left;
+  align-items: center;
+}
+
+  
+.schedule-btn{
+  margin:0 10px;
+  align-self: unset;
+}
